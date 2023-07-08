@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>To-Do List</title>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style2.css"> 
 </head>
 <body>
 	<div id="navigation">
@@ -20,12 +20,21 @@
 		</ul>
 	</div>
 	<div class="container">
-      <ol class="Completed">
+		<div class="addTask">
+			<input type="text" placeholder="Add a Task">
+			<button>Add</button>
+		</div>
+
+		<ol class="notCompleted">
 			<h3>Completed</h3>
 		</ol>
-   </div>
 
-   <script src="script.js"></script>
+		<ol class="Completed">
+			<h3>VERIFIED</h3>
+		</ol>
+	</div>
+
+	<script src="script.js"></script>
 		
 </body>
 </html>
